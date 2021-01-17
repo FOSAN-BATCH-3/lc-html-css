@@ -1,0 +1,145 @@
+body{
+    background-color: white;
+}
+
+.pertama{
+    background-color: black;
+    height: 20px;
+}
+
+.kedua{
+    background-color: purple;
+    height: 200px;
+}
+
+.ketiga{
+    background-color: palevioletred;
+    height: 400px;
+}
+
+.content1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 600px;
+    padding: 40px;
+}
+
+.box{
+    width: 30%;
+}
+
+.atas{
+    height: 40%;
+    background-color: purple;
+    margin: 10px;
+}
+
+.bawah{
+    height: 60%;
+    background-color: purple;
+    margin: 10px;
+}
+
+.tengah{
+    height: 100%;
+    background-color: palevioletred;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nduwur{
+    height: 60%;
+    background-color: purple;
+    margin: 10px;
+}
+
+.ngisor{
+    height: 40%;
+    background-color: purple;
+    margin: 10px;
+}
+
+.content2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+.kotakkanan{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.kotakkiri{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.kotak{
+    height: 400px;
+    width: 400px;
+    background-color: purple;
+    margin: auto;
+}
+
+.siji{
+    margin: 10px;
+}
+
+.loro{
+    margin: 10px;
+}
+
+.telu{
+    margin: 10px;
+}
+
+.papat{
+    margin: 10px;
+}
+
+.limo{
+    margin: 10px;
+}
+
+.enem{
+    margin: 10px;
+}
+
+.pitu{
+    margin: 10px;
+}
+
+.wolu{
+    margin: 10px;
+}
+
+.content3{
+    height: 400px;
+    background-color: purple;
+}
+
+.tampung{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.bla{
+    height: 300px;
+    width: 700px;
+    margin: 10px;
+    background-color: purple;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.footer{
+    height: 400px;
+    background-color: black;
+}
