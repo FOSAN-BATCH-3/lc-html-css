@@ -1,0 +1,81 @@
+.blok1{
+    height: 20px;
+    width: 100vw;
+    background-color: black;
+}
+.blok2{
+    height: 40px;
+    width: 100vw;
+    background-color: purple;
+}
+.blok3{
+    height: 200px;
+    width: 100vw;
+    background-color: salmon;
+}
+.container2{
+    height: 1000px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: seagreen; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 100px;
+}
+.box2{
+    height: 900px;
+    width: 30%;
+    background-color:pink;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 100px;
+}
+.toy1{
+    height: 280px;
+    width: 100%;
+    background-color: purple;
+}
+.toy2{
+    height: 500px;
+    width: 100%;
+    background-color: purple;
+}
+.boxs1{
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.toy4{
+    height: 300px;
+    width: 300px ;
+    background-color: purple;
+}
+.container4{
+    height: 600px;
+    width: 100vw;
+    background-color: purple;
+    margin-bottom: 100px;
+}
+.container5{
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.toy5{
+    height: 300px;
+    width: 30%;
+    background-color: purple;
+}
