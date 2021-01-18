@@ -1,81 +1,371 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* font-size: 100%; */
+    /* font: inherit; */
+    /* vertical-align: baseline; */
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+.img11{
+    height: 100px;
+    width: 80px;
+    background-image: url(./images/fosanlogo.png);
+    background-position: center;
+    background-size: cover;
+}
+.img22{
+    height: 80px;
+    width: 100px;
+    background-image: url(./images/bag.png);
+    background-position: center;
+    background-size: cover;
+}
 .blok1{
-    height: 20px;
-    width: 100vw;
+    height: 50px;
+    width: 1920px;
     background-color: black;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-end; */
+    justify-items: flex-end;
 }
 .blok2{
-    height: 40px;
-    width: 100vw;
-    background-color: purple;
+    height: 120px;
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .blok3{
-    height: 200px;
-    width: 100vw;
+    height: 700px;
+    width: 1920px;
     background-color: salmon;
+    background-image: url(./images/banner1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: auto;
+    justify-content: space-around;
+    padding-right: 200px;
+    
+
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    height: 870px;
+    width: 1920px;
 }
 .container2{
-    height: 1000px;
-    width: 100vw;
-    display: flex;
+    height: 1200px;
+    width: 1920px;
+    display: flex;  
     justify-content: space-around;
-    /* background-color: seagreen; */
     margin-top: 50px;
     margin-bottom: 50px;
+    /* background-color: seagreen; */
+    
 }
 .box1{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     width: 30%;
-    margin-bottom: 100px;
 }
 .box2{
-    height: 900px;
-    width: 30%;
-    background-color:pink;
+    height: 1200px;
+    width: 580px;
+    background-image:url(./images/banner5.jpg);
+    background-size: cover;
+    
 }
 .box3{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     width: 30%;
-    margin-bottom: 100px;
+
 }
 .toy1{
-    height: 280px;
-    width: 100%;
-    background-color: purple;
+    height: 400px;
+    width: 580px;
+    background-image: url(./images/banner6.jpg);
+    background-size: cover;
 }
 .toy2{
-    height: 500px;
-    width: 100%;
-    background-color: purple;
+    height: 720px;
+    width: 580px;
+    background-image: url(./images/banner4.jpg);
+    background-size: cover;
 }
 .boxs1{
     height: 400px;
-    width: 100vw;
+    width: 1920px;
     display: flex;
     justify-content: space-around;
 }
+.boxs3{
+    height: 100px;
+    width: 1920px;
+    display: flex;
+    justify-content: space-around;
+}
+.toy3{
+
+    height: 720px;
+    width: 580px;
+    background-image: url(./images/banner3.jpg);
+    background-size: cover;
+}
+.toy3a{
+    height: 400px;
+    width: 580px;
+    background-image: url(./images/banner2.jpg);
+    background-size: cover;
+}
 .toy4{
-    height: 300px;
+    height: 400px;
+    width: 400px ;
+    background-size: cover;
+}
+.pri1{
+    height: 100px;
     width: 300px ;
-    background-color: purple;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.pri2{
+    height: 100px;
+    width: 30% ;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bolder;
+}
+.a{
+    background-image: url(./images/product1.jpg);
+}
+.b{
+    background-image: url(./images/product2.jpg);
+}
+.c{
+    background-image: url(./images/product3.jpg);
+}
+.d{
+    background-image: url(./images/product4.jpg);
+}
+.v{
+    background-image: url(./images/banner7.jpg);
+}
+.n{
+    background-image: url(./images/banner8.jpg);
+}
+.m{
+    background-image: url(./images/banner9.jpg);
 }
 .container4{
     height: 600px;
-    width: 100vw;
-    background-color: purple;
-    margin-bottom: 100px;
+    width: 1920px;
+    background-image: url(./images/bgbanner.jpg);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 .container5{
     height: 600px;
-    width: 100vw;
+    width: 1920px;
     display: flex;
     justify-content: space-around;
 }
 .toy5{
-    height: 300px;
+    height: 350px;
     width: 30%;
-    background-color: purple;
+    background-size: cover;
+    background-position: center;
+    /* background-color: purple; */
 }
+
+
+.b1{
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: left;
+    margin: auto;
+    padding-left: 20px;
+}
+.b3{
+    font-size: 300%;
+    font-weight: 900;
+
+}
+.p1{
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    text-transform: capitalize;
+    font-size: 150%;
+    /* border: solid black; */
+    height: 20px;
+    width: 200px;
+}
+.p3{
+    text-align: center;
+    font-size: 120%;
+    width: 650px;
+    
+}
+.p4{
+    text-align: center;
+    font-size: 120%;
+    width: 650px;
+    
+}
+.b2{
+    color: cornsilk;
+    height: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 100%;
+    margin: auto;
+    padding: 10px;
+
+}
+.img33{
+    background-image: url(./images/user3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.p2{
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: left;
+    margin: auto;
+    padding-left: 20px;
+}
+.d1{
+    padding-top: 100px;
+    font-size: 300%;
+    height: 50px;
+    width: 500px;
+    text-align: right;
+}
+.d2{
+    font-size: 800%;
+    height: 300px;
+    width: 900px;
+    text-align: right;
+}
+.but1{
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 200%;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+}
+.container6{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 1920px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.container7{
+    height: 100px;
+    width: 1920px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+}
+.container8{
+    height: 600px;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: cornsilk;
+    background-color: black;
+    text-align: center;
+
+}
+.img66{
+    padding: 10px;
+    background-image: url(./images/fosanlogo.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 160px;
+}
+.b7{
+
+    font-size: 400%;
+    height: 50px;
+    width: 700px;
+}
+.input [type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
