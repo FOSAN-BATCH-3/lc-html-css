@@ -205,3 +205,27 @@ table {
     height: 400px;
     background-color: black;
 }
+
+.form1{
+    background-color: whitesmoke;
+    padding: 50px;
+}
+.booking{
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    justify-content: space-around;
+}
+
+
+p{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
