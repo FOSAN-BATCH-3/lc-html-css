@@ -65,7 +65,7 @@ table {
     background-color: rgb(129, 0, 82);
 }
 
-/* ===========[Ukuran Tetap] */
+/* ===========[CSS all]============= */
 .lesson{
     height: 600px;
 }
@@ -149,30 +149,16 @@ table {
     margin-bottom: 10px;
     justify-content: space-between;
 }
-.badan2{
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    height: 700px;
-    margin-top: 30px;
-}
 .badan1 div{
     width: 400px;
 }
-.badan2 b{
-    flex-direction: row;
-}
-.badan2 div .a{
-    width: 298px;
-    margin: 10px;
-}
-.b1{
+.badan1 .b1{
     height: 40%;
 }
-.b2{
+.badan1 .b2{
     height: 57%;
 }
-.b3{
+.badan1 .b3{
     height: 100%;
 }
 .badan .badan1 #id1{
@@ -205,12 +191,84 @@ table {
     margin: 15px
 }
 
+.badan2{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+}
+.badan2 b{
+    flex-direction: row;
+}
+.badan2 div .a{
+    width: 298px;
+    margin: 10px;
+}
+
+
 /* CSS Bagian Bawah */
+.lesson-wrapper{
+    background-image: url('../images/bgbanner.jpg');
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 530;
+}
+.lesson-wrapper-title{
+    text-align: center;
+    line-height: 30px;
+}
+.lesson-wrapper-footer img{
+    border-radius: 50px;
+    margin-bottom: 30px;
+    height: 100px;
+    width: 100px;
+}
+.lesson-wrapper-footer{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 80px;
+}
 .bwh{
-    margin: 50px 0;
+    flex-direction: column;
+}
+.bwh .title{
+    text-align: center;
+    font-size: 25pt;
+    margin-top: 70px;
+}
+.bwh .items img{
+    width: 400px;
+}
+.bwh .items{
+    margin: 100px 0;
     justify-content: space-around;
 }
-.bwh div{
+.bwh .items div{
+    flex-direction: column;
+    height: 500px;
     width: 400px;
-    height: 200px;
+}
+/* ==================[CSS FOOTER]====================== */
+.footer{
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.footer div{
+    margin: 20px 0;
+}
+.footer img{
+    width: 130px;
+}
+.footer .description{
+    flex-direction: column;
+    font-weight: 550;
+}
+.footer .logo img{
+    width: 70px;
 }
